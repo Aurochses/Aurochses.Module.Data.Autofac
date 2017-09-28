@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{671661BF-31E2-4A3E-B5E2-1D404677F775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8B907963-40B9-4218-95CD-2008534A11E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Module.Data.Autofac", "src\Aurochses.Module.Data.Autofac\Aurochses.Module.Data.Autofac.csproj", "{DF98B368-88AA-43C9-A3F6-D247E969AD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Module.Data.Autofac.Tests", "test\Aurochses.Module.Data.Autofac.Tests\Aurochses.Module.Data.Autofac.Tests.csproj", "{873A8C87-6785-47D4-BDC6-AF8D57F4E72C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF98B368-88AA-43C9-A3F6-D247E969AD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF98B368-88AA-43C9-A3F6-D247E969AD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF98B368-88AA-43C9-A3F6-D247E969AD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF98B368-88AA-43C9-A3F6-D247E969AD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873A8C87-6785-47D4-BDC6-AF8D57F4E72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873A8C87-6785-47D4-BDC6-AF8D57F4E72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873A8C87-6785-47D4-BDC6-AF8D57F4E72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873A8C87-6785-47D4-BDC6-AF8D57F4E72C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF98B368-88AA-43C9-A3F6-D247E969AD92} = {671661BF-31E2-4A3E-B5E2-1D404677F775}
+		{873A8C87-6785-47D4-BDC6-AF8D57F4E72C} = {8B907963-40B9-4218-95CD-2008534A11E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81FFCE92-A27A-4362-89B9-EECC25D493C4}
+	EndGlobalSection
+EndGlobal
