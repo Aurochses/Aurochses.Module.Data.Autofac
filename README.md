@@ -6,6 +6,7 @@ Aurochses Module Data Autofac is a library for using Autofac in Data modules.
 
 [![NuGet](https://img.shields.io/nuget/v/Aurochses.Module.Data.Autofac.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Module.Data.Autofac)
 [![NuGet](https://img.shields.io/nuget/dt/Aurochses.Module.Data.Autofac.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Module.Data.Autofac)
+[![NuGet Status](http://nugetstatus.com/Aurochses.Module.Data.Autofac.png)](http://nugetstatus.com/packages/Aurochses.Module.Data.Autofac)
 
 ## Builds
 
