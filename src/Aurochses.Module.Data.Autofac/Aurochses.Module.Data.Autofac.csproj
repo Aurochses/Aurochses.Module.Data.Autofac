@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.4;net461</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
     <Description>Library for using Autofac in Data modules.</Description>
@@ -27,6 +27,18 @@
     <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Module.Data.Autofac.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <DocumentationFile>bin\Release\netstandard2.0\Aurochses.Module.Data.Autofac.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <DocumentationFile>bin\Debug\netstandard2.0\Aurochses.Module.Data.Autofac.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
